@@ -1,0 +1,32 @@
+body{
+    padding: 2rem 0;
+}
+#grid-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 290px 320px 300px;
+    grid-column-gap: 2rem;
+}
+
+.grid-1{
+    background-color: #F6E96B;
+    padding: 2rem;
+    
+}
+
+.grid-2{
+    background-color: #BEDC74;
+    padding: 2rem;
+}
+
+.grid-3{
+    background-color: #A2CA71;
+    padding: 2rem;
+}
+
+.grid-4{
+    background-color: #387F39;
+    padding: 2rem;
+    color: white;
+    margin-top: 1.5rem;
+}
